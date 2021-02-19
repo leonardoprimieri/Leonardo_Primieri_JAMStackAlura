@@ -2,7 +2,7 @@ import React from 'react';
 import Text from '../common/Text';
 
 import { C } from './styles';
-import { Logo } from '../../assets/svg/logo';
+import { Logo } from '../../assets/svg/Logo';
 
 const Navigation = () => {
   return (
