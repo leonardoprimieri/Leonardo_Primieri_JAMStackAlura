@@ -1,4 +1,4 @@
-import { ArrowDown } from '../../assets/svg/arrow';
+import { ArrowDown } from '../../assets/svg/Arrow';
 import { CodingBoy } from '../../assets/svg/CodingBoy';
 import Text from '../common/Text';
 import { C } from './styles';
