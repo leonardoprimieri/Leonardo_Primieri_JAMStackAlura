@@ -14,7 +14,7 @@ const Footer = () => {
         <a href="https://github.com/leonardoprimieri" target="_blank">
           <Github />
         </a>
-        <a href="" target="_blank">
+        <a href="https://medium.com/@leo.primieri" target="_blank">
           <Medium />
         </a>
       </C.Socials>

@@ -14,6 +14,12 @@ export const C = {
     display: flex;
     justify-content: center;
     align-items: center;
+    a {
+      transition: all 400ms ease;
+      :hover {
+        transform: translateY(-10%);
+      }
+    }
 
     a + a {
       margin-left: 1rem;

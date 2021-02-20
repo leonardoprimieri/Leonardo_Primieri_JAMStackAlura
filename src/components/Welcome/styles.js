@@ -22,6 +22,16 @@ export const C = {
     svg {
       height: 3rem;
       margin: 2rem 0;
+      animation: boucing infinite 0.7s ease;
+    }
+
+    @keyframes boucing {
+      0% {
+        transform: translateY(10%);
+      }
+      100% {
+        transform: initial;
+      }
     }
   `,
 };
