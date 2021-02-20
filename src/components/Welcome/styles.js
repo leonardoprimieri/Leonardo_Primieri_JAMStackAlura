@@ -25,6 +25,29 @@ export const C = {
       animation: boucing infinite 0.7s ease;
     }
 
+    #a {
+      position: relative;
+      :after {
+        content: '';
+        height: 4px;
+        width: 5rem;
+        margin-left: 1rem;
+        position: absolute;
+        top: 50%;
+        background-color: ${({ theme }) => theme.colors.primary};
+      }
+      :before {
+        content: '';
+        height: 4px;
+        width: 5rem;
+        margin-right: 1rem;
+        position: absolute;
+        left: -6rem;
+        top: 50%;
+        background-color: ${({ theme }) => theme.colors.primary};
+      }
+    }
+
     @keyframes boucing {
       0% {
         transform: translateY(10%);

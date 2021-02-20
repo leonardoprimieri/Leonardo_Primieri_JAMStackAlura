@@ -24,9 +24,9 @@ const Container = styled.span`
   ${({ variant }) => TextVariants[variant]};
 `;
 
-const Text = ({ tag, variant, children, color }) => {
+const Text = ({ tag, variant, children, id, color }) => {
   return (
-    <Container variant={variant} as={tag}>
+    <Container id={id} variant={variant} as={tag}>
       {children}
     </Container>
   );

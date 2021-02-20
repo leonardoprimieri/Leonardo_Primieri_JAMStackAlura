@@ -9,8 +9,12 @@ export default function Welcome() {
       <C.Content>
         <CodingBoy />
         <C.TextArea>
-          <Text variant="titleText">Leonardo M. Primieri</Text>
-          <Text variant="titleText">Portfólio</Text>
+          <Text variant="titleText" tag="h1">
+            Leonardo M. Primieri
+          </Text>
+          <Text variant="titleText" tag="span" id="a">
+            Portfólio
+          </Text>
           <a href="#projects">
             <ArrowDown />
           </a>
