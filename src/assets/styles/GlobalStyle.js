@@ -25,4 +25,13 @@ export default createGlobalStyle`
     list-style:none;
   }
 
+  ::-webkit-scrollbar {
+    width: .6rem;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background:#E9C46A;
+  }
+
 `;
